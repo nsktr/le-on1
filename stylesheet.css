@@ -1,0 +1,112 @@
+/* header */
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.national-flag {
+    width: 90px;
+    margin-top : 2.5px;
+}
+
+.header-left{
+    float : left;
+}
+
+.header-center{
+    font-size : 30px;
+    text-align : center;
+    color : white;
+    padding-right: 70px;
+}
+
+/* ここまでheader */
+
+/* main */
+main h1{
+    color: cornflowerblue;
+    text-align: left;
+}
+
+.title{
+    padding-left : 20px;
+    text-decoration: underline;
+}
+
+.sentences{
+    padding-left : 20px;
+    font-size : 18px;
+}
+
+.Japanese{
+    float : left;
+}
+
+.French{
+    padding-left : 10px;
+    opacity: 0;
+}
+
+.btn{
+    margin-left: 15px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    opacity : 1;
+}
+
+.message{
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+.btn:hover + .French{
+    opacity : 1;
+}
+
+.underline{
+    border-top: 1px solid black;
+}
+/* ここまでmain */
+
+/* footer */
+footer{
+    margin-top : 118px;
+    padding-top : 2px;
+    background-color : darkcyan;
+    width : 100%;
+    height : 210px;
+    border-top: 1px solid gray;
+}
+
+.footer-logo{
+    height: 210px;
+    width: 280px;
+    float : left;
+}
+
+.section{
+    padding-right : 30px;
+}
+
+.footer-list{
+    padding-top : 20px;
+    text-align: center;
+}
+
+.Note{
+    font-size: 15px;
+    padding : 80px;
+    text-align: right;
+}
