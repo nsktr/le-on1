@@ -40,44 +40,31 @@ main h1{
     text-decoration: underline;
 }
 
+.show-answer{
+    color:blueviolet;
+}
+
 .sentences{
     padding-left : 20px;
     font-size : 18px;
 }
 
 .Japanese{
-    float : left;
+    position:relative;
+    cursor:pointer;
+    text-align: left;
 }
 
 .French{
     padding-left : 10px;
-    opacity: 0;
+    display: none;
 }
 
-.btn{
-    margin-left: 15px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
+.minimum-unit{
+    border-bottom:1px solid #ccc;
+    padding-bottom: 20px;
 }
 
-.btn:hover{
-    opacity : 1;
-}
-
-.message{
-    background-color: blueviolet;
-    text-decoration: none;
-}
-
-.btn:hover + .French{
-    opacity : 1;
-}
-
-.underline{
-    border-top: 1px solid black;
-}
 /* ここまでmain */
 
 /* footer */
